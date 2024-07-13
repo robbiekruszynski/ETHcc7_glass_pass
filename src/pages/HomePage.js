@@ -1,12 +1,13 @@
 import React from 'react';
-import TicketList from '../components/TicketList';
+import { Container, Typography } from '@mui/material';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Available Tickets</h1>
-      <TicketList />
-    </div>
+    <Container>
+      <Typography variant="h4" gutterBottom>
+        Welcome to ETHcc7 Glass Pass
+      </Typography>
+    </Container>
   );
 };
 
