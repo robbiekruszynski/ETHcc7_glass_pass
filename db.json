@@ -1,0 +1,7 @@
+{
+    "tickets": [
+      { "id": 1, "eventName": "Concert A", "date": "2024-08-01", "price": 50, "description": "Description for Concert A" },
+      { "id": 2, "eventName": "Concert B", "date": "2024-08-02", "price": 60, "description": "Description for Concert B" }
+    ]
+  }
+  
