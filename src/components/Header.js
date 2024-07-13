@@ -1,14 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 
 const Header = () => {
   return (
-    <header>
-      <h1>TicketSwap Clone</h1>
-      <nav>
-        <Link to="/">Home</Link>
-      </nav>
-    </header>
+    <AppBar position="static">
+      <Toolbar>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          TicketSwap Clone
+        </Typography>
+        <Button color="inherit" component={Link} to="/">
+          Home
+        </Button>
+      </Toolbar>
+    </AppBar>
   );
 };
 
